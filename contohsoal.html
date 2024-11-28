@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sifat-sifat bangun ruang</title>
+
+    <!-- Font Awesome CDN untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Reset dan Styling Umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #3739dd; /* Abu-abu */
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            margin-left: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover {
+            background-color: #406fee; /* Abu-abu gelap */
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center; /* Menambahkan ini untuk memposisikan teks di tengah */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .background-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            max-width: 1000px; /* Mengatur ukuran maksimum gambar */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b6cfe6; /* Abu-abu */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">sifat-sifat bangun ruang kelas7</div>
+    <ul class="nav-links">
+        <li><a href="beranda.html"><i class="fas fa-home"></i> Beranda</a></li>
+        <li><a href="coba2web.html"><i class="fas fa-book"></i> Materi</a></li>
+        <li><a href="contohsoal.html"><i class="fas fa-edit"></i> Contoh Soal</a></li>
+        <li><a href="Latihansoal.html"><i class="fas fa-pencil-alt"></i> Latihan</a></li>
+        <li><a href="kuiz.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+        <li><a href="profilsaya.html"><i class="fas fa-question-circle"></i> profil saya</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifat-Sifat Bangun Ruang</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #e74c3c;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .highlight {
+            background-color: #eaf2f8;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+        }
+        .code {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .note {
+            background-color: #f9e79f;
+            padding: 10px;
+            border-left: 5px solid #f1c40f;
+        }
+        .comparison {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .box {
+            width: 45%;
+            padding: 15px;
+            background-color: #d5f5e3;
+            border: 1px solid #27ae60;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Soal dan Pembahasan: Sifat-Sifat Bangun Ruang</h1>
+
+        <h2>Soal</h2>
+        <p>
+            Di sebuah pabrik, terdapat dua jenis kotak penyimpanan: <strong>kotak kubus</strong> dengan panjang rusuk 8 cm, 
+            dan <strong>kotak balok</strong> dengan panjang 12 cm, lebar 8 cm, dan tinggi 6 cm.
+        </p>
+        <p>
+            Hitunglah:
+        </p>
+        <ul>
+            <li>1. Volume kotak kubus</li>
+            <li>2. Luas permukaan kotak balok</li>
+            <li>3. Perbandingan volume dan luas permukaan antara kotak kubus dan balok</li>
+        </ul>
+
+        <h2>Pembahasan</h2>
+
+        <h3>1. Volume Kotak Kubus</h3>
+        <p class="highlight">Rumus volume kubus adalah:</p>
+        <div class="code">V = s³</div>
+        <p>Di mana <em>s</em> adalah panjang rusuk kubus. Diketahui panjang rusuk kotak kubus adalah 8 cm, maka:</p>
+        <div class="code">
+            V = 8³ = 512 cm³
+        </div>
+        <p><strong>Jadi, volume kotak kubus adalah 512 cm³.</strong></p>
+
+        <h3>2. Luas Permukaan Kotak Balok</h3>
+        <p class="highlight">Rumus luas permukaan balok adalah:</p>
+        <div class="code">L = 2(pl + lt + pt)</div>
+        <p>Dengan:</p>
+        <ul>
+            <li>p = panjang = 12 cm</li>
+            <li>l = lebar = 8 cm</li>
+            <li>t = tinggi = 6 cm</li>
+        </ul>
+        <p>Substitusi nilai-nilai tersebut ke dalam rumus:</p>
+        <div class="code">
+            L = 2(12 × 8 + 8 × 6 + 12 × 6) <br>
+            L = 2(96 + 48 + 72) = 2 × 216 = 432 cm²
+        </div>
+        <p><strong>Jadi, luas permukaan kotak balok adalah 432 cm².</strong></p>
+
+        <h3>3. Perbandingan Volume dan Luas Permukaan</h3>
+        <div class="comparison">
+            <div class="box">
+                <h4>Kubus</h4>
+                <p><strong>Volume:</strong> 512 cm³</p>
+                <p><strong>Luas Permukaan:</strong> 384 cm²</p>
+            </div>
+            <div class="box">
+                <h4>Balok</h4>
+                <p><strong>Volume:</strong> 576 cm³</p>
+                <p><strong>Luas Permukaan:</strong> 432 cm²</p>
+            </div>
+        </div>
+
+        <p class="note">
+            Kesimpulannya, kotak balok memiliki volume yang lebih besar (576 cm³) dibandingkan kotak kubus (512 cm³), 
+            tetapi membutuhkan lebih banyak material untuk membungkusnya karena luas permukaannya lebih besar (432 cm²) dibandingkan luas permukaan kubus (384 cm²).
+        </p>
+    </div>
+</body>
+</html>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 sifat-sifat bangun ruang. ALIYA (E1R022001).</p>
+</footer>
+
+</body>
+</html>

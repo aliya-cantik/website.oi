@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sifat-sifat bangun ruang</title>
+
+    <!-- Font Awesome CDN untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Reset dan Styling Umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #3739dd; /* Abu-abu */
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            margin-left: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover {
+            background-color: #406fee; /* Abu-abu gelap */
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center; /* Menambahkan ini untuk memposisikan teks di tengah */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .background-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            max-width: 1000px; /* Mengatur ukuran maksimum gambar */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b6cfe6; /* Abu-abu */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">sifat-sifat bangun ruang kelas7</div>
+    <ul class="nav-links">
+        <li><a href="beranda.html"><i class="fas fa-home"></i> Beranda</a></li>
+        <li><a href="coba2web.html"><i class="fas fa-book"></i> Materi</a></li>
+        <li><a href="contohsoal.html"><i class="fas fa-edit"></i> Contoh Soal</a></li>
+        <li><a href="Latihansoal.html"><i class="fas fa-pencil-alt"></i> Latihan</a></li>
+        <li><a href="kuiz.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+        <li><a href="profilsaya.html"><i class="fas fa-question-circle"></i> profil saya</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Sifat-Sifat Bangun Ruang</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .quiz-form {
+            margin-top: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .question label {
+            display: block;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #2980b9;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #eafaf1;
+            border-left: 5px solid #2ecc71;
+        }
+        .result h2 {
+            color: #27ae60;
+        }
+        .result p {
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   
+<div class="container">
+    <h1>Kuis Sifat-Sifat Bangun Ruang</h1>
+    <form id="quizForm" class="quiz-form">
+        <!-- Soal 1 -->
+        <div class="question">
+            <h3>1. Apa rumus volume kubus?</h3>
+            <label><input type="radio" name="q1" value="0">V = p × l × t</label>
+            <label><input type="radio" name="q1" value="1">V = s × s × s</label>
+            <label><input type="radio" name="q1" value="0">V = 2 × (p × l + l × t + p × t)</label>
+        </div>
+        
+        <!-- Soal 2 -->
+        <div class="question">
+            <h3>2. Berapa jumlah sisi pada bangun ruang balok?</h3>
+            <label><input type="radio" name="q2" value="0">6</label>
+            <label><input type="radio" name="q2" value="1">12</label>
+            <label><input type="radio" name="q2" value="0">8</label>
+        </div>
+
+        <!-- Soal 3 -->
+        <div class="question">
+            <h3>3. Berapa jumlah titik sudut pada limas segitiga?</h3>
+            <label><input type="radio" name="q3" value="0">5</label>
+            <label><input type="radio" name="q3" value="1">4</label>
+            <label><input type="radio" name="q3" value="0">6</label>
+        </div>
+
+        <!-- Soal 4 -->
+        <div class="question">
+            <h3>4. Sebuah tabung memiliki alas berbentuk apa?</h3>
+            <label><input type="radio" name="q4" value="1">Lingkaran</label>
+            <label><input type="radio" name="q4" value="0">Persegi panjang</label>
+            <label><input type="radio" name="q4" value="0">Segitiga</label>
+        </div>
+
+        <!-- Soal 5 -->
+        <div class="question">
+            <h3>5. Apa rumus luas permukaan balok?</h3>
+            <label><input type="radio" name="q5" value="1">L = 2(p × l + l × t + p × t)</label>
+            <label><input type="radio" name="q5" value="0">L = s × s</label>
+            <label><input type="radio" name="q5" value="0">L = 4/3 π r³</label>
+        </div>
+
+        <!-- Soal 6 -->
+        <div class="question">
+            <h3>6. Bangun ruang manakah yang memiliki sisi lengkung?</h3>
+            <label><input type="radio" name="q6" value="1">Bola</label>
+            <label><input type="radio" name="q6" value="0">Kubus</label>
+            <label><input type="radio" name="q6" value="0">Balok</label>
+        </div>
+
+        <!-- Soal 7 -->
+        <div class="question">
+            <h3>7. Rumus volume kerucut adalah?</h3>
+            <label><input type="radio" name="q7" value="1">V = 1/3 × π r² t</label>
+            <label><input type="radio" name="q7" value="0">V = π r² t</label>
+            <label><input type="radio" name="q7" value="0">V = 4/3 × π r³</label>
+        </div>
+
+        <!-- Soal 8 -->
+        <div class="question">
+            <h3>8. Apa saja unsur-unsur bangun ruang prisma segitiga?</h3>
+            <label><input type="radio" name="q8" value="1">Sisi alas, sisi tegak, rusuk, dan titik sudut</label>
+            <label><input type="radio" name="q8" value="0">Sisi, alas, dan diagonal</label>
+            <label><input type="radio" name="q8" value="0">Tinggi, lebar, panjang, dan diagonal</label>
+        </div>
+
+        <!-- Soal 9 -->
+        <div class="question">
+            <h3>9. Bangun ruang yang memiliki 12 rusuk adalah?</h3>
+            <label><input type="radio" name="q9" value="0">Kubus</label>
+            <label><input type="radio" name="q9" value="1">Balok</label>
+            <label><input type="radio" name="q9" value="0">Kerucut</label>
+        </div>
+
+        <!-- Soal 10 -->
+        <div class="question">
+            <h3>10. Bangun ruang apa yang tidak memiliki titik sudut?</h3>
+            <label><input type="radio" name="q10" value="1">Bola</label>
+            <label><input type="radio" name="q10" value="0">Limas</label>
+            <label><input type="radio" name="q10" value="0">Kerucut</label>
+        </div>
+
+        <!-- Tombol Submit -->
+        <button type="button" class="submit-btn" onclick="submitQuiz()">Submit Jawaban</button>
+    </form>
+
+    <!-- Hasil Kuis -->
+    <div id="result" class="result" style="display: none;">
+        <h2>Hasil Kuis</h2>
+        <p id="score"></p>
+        <div id="answers"></div>
+    </div>
+</div>
+
+<script>
+    function submitQuiz() {
+        const quizForm = document.getElementById('quizForm');
+        const resultDiv = document.getElementById('result');
+        const scoreText = document.getElementById('score');
+        const answersDiv = document.getElementById('answers');
+
+        // Kunci jawaban
+        const correctAnswers = ['1', '1', '1', '1', '1', '1', '1', '1', '1', '1'];
+        let score = 0;
+
+        // Bersihkan jawaban sebelumnya
+        answersDiv.innerHTML = '';
+
+        // Periksa jawaban
+        correctAnswers.forEach((answer, index) => {
+            const question = quizForm[q${index + 1}];
+            const selectedAnswer = question.value;
+
+            // Menampilkan benar atau salah
+            let result = document.createElement('p');
+            if (selectedAnswer === answer) {
+                result.innerHTML = Soal ${index + 1}: <span class="correct">Benar</span>;
+                score++;
+            } else {
+                result.innerHTML = Soal ${index + 1}: <span class="incorrect">Salah</span>;
+            }
+            answersDiv.appendChild(result);
+        });
+
+        // Tampilkan hasil
+        resultDiv.style.display = 'block';
+        scoreText.textContent = Kamu mendapatkan skor: ${score} dari 10;
+    }
+</script>
+
+</body>
+
+</html>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 sifat-sifat bangun ruang. ALIYA (E1R022001).</p>
+</footer>
+
+</body>
+</html>

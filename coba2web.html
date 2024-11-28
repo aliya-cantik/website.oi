@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sifat-sifat bangun ruang</title>
+
+    <!-- Font Awesome CDN untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Reset dan Styling Umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #3739dd; /* Abu-abu */
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            margin-left: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover {
+            background-color: #406fee; /* Abu-abu gelap */
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center; /* Menambahkan ini untuk memposisikan teks di tengah */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .background-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            max-width: 1000px; /* Mengatur ukuran maksimum gambar */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b6cfe6; /* Abu-abu */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">sifat-sifat bangun ruang kelas7</div>
+    <ul class="nav-links">
+        <li><a href="beranda.html"><i class="fas fa-home"></i> Beranda</a></li>
+        <li><a href="coba2web.html"><i class="fas fa-book"></i> Materi</a></li>
+        <li><a href="contohsoal.html"><i class="fas fa-edit"></i> Contoh Soal</a></li>
+        <li><a href="Latihansoal.html"><i class="fas fa-pencil-alt"></i> Latihan</a></li>
+        <li><a href="kuiz.html"><i class="fas fa-question-circle"></i> Kuis</a></li>
+        <li><a href="profilsaya.html"><i class="fas fa-question-circle"></i> profil saya</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifat-sifat Bangun Ruang</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.8;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #2980b9;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2980b9;
+            border-left: 5px solid #2980b9;
+            padding-left: 10px;
+            margin-top: 30px;
+            transition: color 0.3s;
+        }
+        h2:hover {
+            color: #3498db;
+        }
+        p {
+            text-align: justify;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #2980b9;
+            color: white;
+            border-radius: 0 0 10px 10px;
+        }
+        .video-responsive {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 800px; /* Ukuran maksimal lebar video */
+            margin: 0 auto; /* Menambahkan margin auto untuk meratakan video */
+        }
+        .video-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block; /* Menambahkan display block untuk iframe */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sifat-sifat Bangun Ruang </h1>
+        <div class="video-responsive">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/mSoKyLJehYM?si=k6R5m-C7MvviV7m6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h2>1. Kubus</h2>
+        <p>Kubus adalah bangun ruang yang memiliki 6 sisi berbentuk persegi. Sifat-sifat kubus antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 6 sisi yang sama besar.</li>
+            <li>Memiliki 12 rusuk yang sama panjang.</li>
+            <li>Memiliki 8 titik sudut.</li>
+            <li>Sisi-sisi kubus berbentuk persegi.</li>
+        </ul>
+
+        <h2>2. Balok</h2>
+        <p>Balok adalah bangun ruang yang memiliki 6 sisi, di mana sisi-sisinya berbentuk persegi panjang. Sifat-sifat balok antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 6 sisi berbentuk persegi panjang.</li>
+            <li>Memiliki 12 rusuk, di mana rusuk yang sejajar sama panjang.</li>
+            <li>Memiliki 8 titik sudut.</li>
+        </ul>
+
+        <h2>3. Limas Segiempat</h2>
+        <p>Limas segiempat adalah bangun ruang yang alasnya berbentuk persegi atau persegi panjang, dengan sisi-sisi tegak berbentuk segitiga. Sifat-sifat limas segiempat antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 5 sisi (1 alas dan 4 sisi tegak berbentuk segitiga).</li>
+            <li>Memiliki 8 rusuk.</li>
+            <li>Memiliki 5 titik sudut.</li>
+        </ul>
+
+        <h2>4. Prisma Segitiga</h2>
+        <p>Prisma segitiga adalah bangun ruang yang alas dan tutupnya berbentuk segitiga. Sifat-sifat prisma segitiga antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 5 sisi (2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang).</li>
+            <li>Memiliki 9 rusuk.</li>
+            <li>Memiliki 6 titik sudut.</li>
+        </ul>
+
+        <h2>5. Tabung</h2>
+        <p>Tabung adalah bangun ruang yang memiliki alas dan tutup berbentuk lingkaran serta sisi tegak berbentuk persegi panjang jika dihamparkan. Sifat-sifat tabung antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 3 sisi (2 sisi berbentuk lingkaran dan 1 sisi tegak berbentuk lengkungan).</li>
+            <li>Tidak memiliki titik sudut.</li>
+            <li>Memiliki 2 rusuk melengkung.</li>
+        </ul>
+
+        <h2>6. Kerucut</h2>
+        <p>Kerucut adalah bangun ruang yang memiliki alas berbentuk lingkaran dan sisi tegak berbentuk selimut kerucut. Sifat-sifat kerucut antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 2 sisi (1 alas berbentuk lingkaran dan 1 sisi tegak berbentuk lengkungan).</li>
+            <li>Memiliki 1 rusuk melengkung.</li>
+            <li>Memiliki 1 titik sudut di puncaknya.</li>
+        </ul>
+
+        <h2>7. Bola</h2>
+        <p>Bola adalah bangun ruang yang seluruh sisinya berbentuk lengkungan. Sifat-sifat bola antara lain:</p>
+        <ul class="highlight">
+            <li>Memiliki 1 sisi lengkung.</li>
+            <li>Tidak memiliki rusuk.</li>
+            <li>Tidak memiliki titik sudut.</li>
+        </ul>
+
+        <footer>
+            &copy; semangatttttt
+        </footer>
+    </div>
+
+</body>
+</html>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 sifat-sifat bangun ruang. ALIYA (E1R022001).</p>
+</footer>
+
+</body>
+</html>
